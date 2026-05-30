@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights (large binary files)
+*.pth
+*.pt
+*.onnx
+*.bin
+
+# Hex weight files (regenerate from script)
+hex_weights/
+
+# Dataset (download via script)
+data/
+
+# C++ build artifacts
+*.o
+*.out
+*.a
+*.so
+golden_model/build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Verilog / FPGA tooling
+*.bit
+*.bin
+*.mcs
+work/
+transcript
+vsim.wlf
+*.log
+modelsim.ini
+*.jou
+*.str
+impl_*/
+synth_*/
+
+# Lattice Radiant
+*.ldf
+*.rpt
+*.srf
+*.mrp
+*.par
+*.twr
+*.twx
+impl1/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
